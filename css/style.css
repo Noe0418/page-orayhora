@@ -1,28 +1,4 @@
-body{
-    background-color: rgb(193, 226, 235);
-}
 
-.logo {
-    width: 300px;
-    object-fit: cover;
-    }
-
-.navbar-expand-lg{
-    background-image: url(../img/diseno4.jpg);
-    background-attachment: fixed; 
-    }
-
-.nav-link {
-    color: whitesmoke;
-}
-
-.collapse  {
-    justify-content: center;
-}
-
-.navbar-nav {
-    align-items: center ;
-}
 
 /*li  a {
     color: wheat;
