@@ -34,6 +34,16 @@ body{
     align-items: center ;
 }
 
+.carousel slide{
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel {
+        display:none;
+    }
+}
+
 .card-ntros{
     border: none;
     padding: 50px;
