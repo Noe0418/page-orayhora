@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html {
+    font-size: 62.5%;
+}*/
+
 body{
-    background-color: rgb(193, 226, 235);
+    background-color: rgb(182, 230, 243);
 }
 
 .logo {
@@ -23,6 +33,25 @@ body{
 .navbar-nav {
     align-items: center ;
 }
+
+.card-ntros{
+    border: none;
+    padding: 50px;
+    text-align: center;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    
+}
+.card-text {
+    color: rgb(235, 20, 20);
+}
+.card-title{
+    color: rgb(235, 20, 20);
+}
+
 
 #footer {
     border-top: 2px solid cornflowerblue;
