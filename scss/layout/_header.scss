@@ -1,0 +1,25 @@
+/* Estilos Nav*/
+
+.logo {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.bg-nav {
+    background-image: url(../img/diseno4.jpg);
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 50%;
+    font-family: $font-family-montserrat;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #00c3ff;
+}

@@ -1,0 +1,117 @@
+/*Estilos footer*/
+.footer {
+    background-color: rgb(64, 104, 116);
+    padding: 20px;
+
+    .ft-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .map {
+            padding: 0px 100px;
+        }
+
+            h1 {
+                font-size: 20px;
+                color: #d6d6e2;
+                margin-bottom: 10px;
+                font-family: $font-family-montserrat;
+                text-align: center;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin: 5px 0;
+
+                    a {
+                        font-size: 12px;
+                        color: #b7b8be;
+                        display: block;
+                        text-decoration: none;
+                        text-align: center;
+
+                        &:hover {
+                            color: #00c3ff;
+                        }
+                    }
+                }
+            }
+        }
+            h1 {
+                font-size: 20px;
+                color: #d6d6e2;
+                margin-bottom: 20px;
+            }
+
+            .redes {
+                display: flex;
+                gap: 3rem;
+
+                .i {
+                    font-size: 2.5rem;
+                }
+
+                .Facebook,
+                .Instagram {
+                    padding: 14px;
+                    border-radius: 25%;
+                    color: #fff;
+
+                    &.Facebook {
+                        background-color: rgb(15, 15, 196);
+                    }
+
+                    &.Instagram {
+                        background: radial-gradient(circle at 30% 107%,
+                                #fdf497 0%,
+                                #fdf497 5%,
+                                #fd5949 45%,
+                                #d6249f 60%,
+                                #285aeb 90%);
+                    }
+                }
+            }
+        }
+
+
+    .footer-text {
+        padding: 5px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    li {
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    /* responsive footer */
+    @media (max-width: 991px) {
+        .footer {
+            padding: 30px;
+        }
+
+        .footer-link {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .redes {
+            justify-content: center;
+        }
+
+        .footer-text {
+            text-align: center;
+        }
+    }

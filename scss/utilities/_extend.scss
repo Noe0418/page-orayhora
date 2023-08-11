@@ -1,0 +1,12 @@
+.link-m {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold; 
+
+}
+
+.link{
+    @extend .link-m;
+}

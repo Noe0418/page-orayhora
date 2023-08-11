@@ -1,0 +1,70 @@
+/*Estilos productos*/
+.contenedor{
+    padding: 0px 0px 50px 0px;
+    margin: 60px;
+}
+
+.ntros-productos {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.productos {   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    .producto-blanco img { 
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        border-radius: 10px 10px 0 0;
+        transition: all ,3s;
+    }
+    .producto-blanco figure{
+        overflow: hidden;
+    }
+        .producto  {
+        background-color: $color-fondo;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        .producto :hover{
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.40);
+            &  img{
+            transform: scale(1.1);
+            }
+        }
+}
+        .producto-precio,
+        .producto-nombre {
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            font-family: $font-family-montserrat;
+        }
+        .producto-nombre {
+            font-size: 20px;
+            font-weight: 600;
+            font-family: $font-family-montserrat;
+        }
+
+
+
+/*  responsive productos */
+@media screen and (max-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

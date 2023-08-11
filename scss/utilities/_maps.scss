@@ -1,0 +1,9 @@
+$size: (
+    small: 100px,
+    medium: 250px,
+    large: 400px,
+);
+
+.diseño img{
+    width: map-get($size , medium );
+}
